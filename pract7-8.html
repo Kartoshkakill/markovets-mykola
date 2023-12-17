@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake recipe</title>
+    <link rel="stylesheet" href="pract7-8.css" />
+  </head>
+  <body>
+    <input type="radio" name="filter" id="cake" />
+    <input type="radio" name="filter" id="bisquit" />
+    <input type="radio" name="filter" id="pie" />
+    <input type="radio" name="filter" id="reset" checked />
+    <div class="main">
+      <h1>Тортики <span class="symbol">&</span> тістечка</h1>
+
+      <div class="cakes">
+        <div class="cake" id="cake">
+          <img
+            src="https://i.obozrevatel.com/food/recipemain/2022/1/26/screenshot27.jpg?size=636x424"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Торт "Наполеон"</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 550 кКал</p>
+        </div>
+        <div class="cake" id="cake">
+          <img
+            src="https://cdn.7days.ru/pic/dab/959741/1310724/90.jpg"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Шоколадно-ягідний торт</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 500 кКал</p>
+        </div>
+        <div class="cake" id="bisquit">
+          <img
+            src="https://s1.eda.ru/StaticContent/Photos/120131085240/120213184528/p_O.jpg"
+            alt="bisquit"
+          />
+          <p class="name">
+            <b>Біскіт с млинцевим борошном</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 650 кКал</p>
+        </div>
+        <div class="cake" id="cake">
+          <img
+            src="https://paprikanta.com/wp-content/uploads/2020/11/cheesecake-osnovnoe-foto-1300x731.jpg"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Полуничний чізкейк</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 400 кКал</p>
+        </div>
+        <div class="cake" id="cake">
+          <img
+            src="https://i.ytimg.com/vi/D7irM9Izb7U/maxresdefault.jpg"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Торт "Піраміда"</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 700 кКал</p>
+        </div>
+        <div class="bisquit" id="bisquit">
+          <img
+            src="https://i.pinimg.com/originals/79/a7/29/79a729f3189542d2d44795e5a368a23c.png"
+            alt="bisquit"
+          />
+          <p class="name">
+            <b>Біскітні тістечка</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 150 кКал</p>
+        </div>
+        <div class="bisquit" id="bisquit">
+          <img
+            src="https://telegraf.com.ua/static/storage/originals/d/06/de339569aa2e46b0f67a60902b8a206d.png"
+            alt="bisquit"
+          />
+          <p class="name">
+            <b>Бісквітний рулет</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 400 кКал</p>
+        </div>
+        <div class="pie" id="pie">
+          <img
+            src="https://img.tsn.ua/cached/863/tsn-ef193642135c1378f91261f26d18fb96/thumbs/1200x630/d2/75/0cc3618f7c0a1a004f2b5957ee0075d2.jpeg"
+            alt="pie"
+          />
+          <p class="name">
+            <b>Вишневий літній пиріг</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 650 кКал</p>
+        </div>
+        <div class="pie" id="pie">
+          <img
+            src="https://i.obozrevatel.com/food/recipemain/2019/4/18/tt.jpg?size=636x424"
+            alt="pie"
+          />
+          <p class="name">
+            <b>Сливовий пирыг на кефірі</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій: 550 кКал</p>
+        </div>
+      </div>
+      <div class="contacts">
+        <p>Контакти:</p>
+        <p class="link">tortic@smakota.ua</p>
+        <p class="copy">© 2022 Smakota</p>
+      </div>
+      <div class="filters">
+        <nav>
+          <h3>Калорій</h3>
+          <input type="range" min="0" max="100" style="width: 300px" />
+          <p>Від 0 до 640 кКал</p>
+        </nav>
+        <div class="filter-button"><label for="cake">Торт</label></div>
+        <div class="filter-button"><label for="bisquit">Тістечко</label></div>
+        <div class="filter-button"><label for="pie">Пиріг</label></div>
+        <div class="filter-button">
+          <label for="reset">Скинути фільтри</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
